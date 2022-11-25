@@ -1,38 +1,162 @@
-.App {
+/* /* .aj{
+  box-sizing: border-box;
+  padding: 10px;
+  box-shadow: 10px 10px 10px  -10px  rgb(77, 72, 72);
+flex-wrap: wrap;
+padding:10px;
+margin-left: 300px;
+box-sizing:10px;
+background-color: aqua;
+position: relative;
+border-radius: 50px;
+margin-right:50px 50px 50px 50px;
+padding-left:10px;
+text-align: center;
+
+
+
+
+} */
+
+
+
+/* 
+
+ .card img{
+width: 400px;
+flex-wrap: wrap;
+box-sizing: border-box;
+border: 1px solid black;
+padding: 0px;
+text-align: center; 
+ text-align: justify; 
+height:300px;
+margin:10px;
+overflow: auto;
+
+
+
+
+} 
+.Card_img {
+  width: 100%;
+  display:inline;
+  float: left;
+
+  
+
+    
+} */
+
+
+/* 
+.box{
+  border: 1px solid black;
   text-align: center;
-}
+  border-radius: 10px;
+padding:50px;
+  margin:10rem 19rem;
+} */
+ 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+*{
+  margin:0;
+  padding:0;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  h3{
+    color: #fff;
   }
-  to {
-    transform: rotate(360deg);
-  }
+.form{
+  /* width:250px; */
+  height:380px;
+  background:linear-gradient( to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+  position:absolute;
+   right:-19rem;
+   top:5rem;
+   border-radius: 10px;
+padding-inline: 25px;  
+margin-inline: 895px;
 }
+.form h2{
+
+  width:220px;
+  font-family: sans-serif;
+  text-align: center;
+  color:#ff7300e0;
+  font-size:22px;
+  background-color:white;
+  border-radius:12px;
+  margin:3px;
+  padding:8px
+}
+.form h3{
+  font-size: 20px;
+}  
+ 
+.form input{
+  width:240px;
+  height:31px;
+  border-radius: 9px;
+  background:transparent;
+  border-bottom:1px solid lightseagreen;
+  border-top:none;
+  border-right: none;
+  border-left: none;
+  color:#fff;
+  font-size:15px;
+  letter-spacing:1px;
+  margin-top:20px;
+  font-family:'Arial Narrow Bold';
+}
+.form input:focus{
+  outline:none;
+}
+::placeholder{
+  color:#fff;
+  font-family:' BlinkMacSystemFont';
+}  
+.btnn{
+
+  width:240px;
+  height:30px;
+  background:aqua;
+  border:none;
+  margin-top:25px;
+  font-size:17px;
+  border-radius: 10px;
+  cursor: pointer;
+  color:#fff;
+  transition:3s ease;
+}
+.btnn:hover{
+  background-color: aliceblue;
+}
+  .btnn a{
+
+      text-decoration:none;
+      color:black;
+      font-weight:bold;
+  }
+.form .link{
+  font-family:arial;
+  font-size:17px;
+  padding-top:10px;
+  text-align:center;
+}
+.link a{
+  text-decoration:none;
+  color:aqua;
+  padding:2px;
+
+}
+
+.style_color{
+  padding: 2rem;
+  border: 1px solid black;
+}
+
+
+
+
+
+

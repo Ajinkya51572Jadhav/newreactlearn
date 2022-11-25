@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name":"shivam",
+      "addres":"pimpri",
+      "email":"shivam@gmail.com",
+      "password":"1234"
+    },
+    {
+      "id": 2,
+      "name":"yash",
+      "addres":"parner",
+      "email":"yash@gmail.com",
+      "password":"1234"
+    },
+    {
+      "id": 3,
+      "name":"vaibhav",
+      "addres":"pimpri",
+      "email":"vaibhav@gmail.com",
+      "password":"1234"
+    }
+
+
+
+
+  ]
+}
